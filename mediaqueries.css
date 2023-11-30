@@ -121,6 +121,10 @@
         font-size: 2rem;
     }
 
+    .menu-links a {
+        font-size: 1.2rem;
+    }
+
     .text-container {
         text-align: justify;
     }
