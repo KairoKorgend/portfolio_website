@@ -61,6 +61,19 @@
 
     article {
         font-size: 1rem;
+        width: auto; /* Allow articles to take full width */
+        justify-content: flex-start; /* Align items to start */
+    }
+
+    .article-container {
+        display: flex;
+    }
+
+    .experience-container {
+        margin-left: 25%;
+        display: flex;
+        flex-direction: column; /* Change to column for mobile */
+        align-items: left; /* Center the content */
     }
 
     footer nav {

@@ -106,7 +106,7 @@ a:hover {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
@@ -289,7 +289,7 @@ section {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 0.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -301,6 +301,10 @@ section {
 .section-container {
     gap: 4rem;
     height: 50%;
+}
+
+.project-title {
+    text-align: center;
 }
 
 .section__pic-container {
@@ -337,8 +341,18 @@ section {
     justify-content: space-around;
 }
 
+.experience-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
 article {
     display: flex;
+    align-items: center;
     width: 10rem;
     justify-content: space-around; 
     gap: 0.5rem;
