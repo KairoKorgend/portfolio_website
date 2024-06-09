@@ -100,7 +100,9 @@
   .text-container {
     text-align: justify;
   }
-
+  article {
+    justify-content: center;
+  }
   #about {
     display: none;
   }
